@@ -14,6 +14,8 @@ It's very specific at the moment and only offers:
     virtualenv --no-site-packages -p python2.7 . # create a virtualenv
     . bin/activate
     pip install -r requirements.txt # install the requirements
+    npm install -g serverless # install the serverless framework
+    yarn # to install extra serverless components, see yarnpkg.com for how to get yarn
 
 ## Deploying the service
 

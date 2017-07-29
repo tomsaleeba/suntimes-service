@@ -6,6 +6,22 @@ It's very specific at the moment and only offers:
 
 ... but it could easily be changed to be more generic.
 
+A response looks like:
+
+    {
+      epoch_ms: 42944.838623744836, # seconds since Gregorian epoch
+      decomposed: {
+        seconds: 37.09155381191522,
+        month: 7,
+        hours: 8,
+        year: 2017,
+        date: 30,
+        minutes: 7
+      },
+      type: "sunset",
+      date_string: "2017-07-30 17:37:37.091553+09:30"
+    }
+
 ## Getting started
 
     git clone <this repo>

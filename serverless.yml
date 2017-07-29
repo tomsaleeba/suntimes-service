@@ -21,11 +21,11 @@ functions:
     handler: handler.sunrise
     events:
       - http:
-          path: sunrise/bute
+          path: sunrise/next/bute
           method: get
   sunset:
     handler: handler.sunset
     events:
       - http:
-          path: sunset/bute
+          path: sunset/next/bute
           method: get

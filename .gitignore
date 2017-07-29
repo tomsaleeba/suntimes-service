@@ -25,3 +25,4 @@ local/
 pip-selfcheck.json
 .requirements/
 node_modules/
+*.pyc
